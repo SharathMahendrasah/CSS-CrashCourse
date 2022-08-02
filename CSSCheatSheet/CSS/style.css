@@ -165,6 +165,7 @@ a:visited{
     position: relative;
     background-image: url("../images/bgimage.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -183,4 +184,20 @@ a:visited{
 .fix-me{
     position: fixed;
     top: 400px;
+}
+
+.my-list li:first-child{
+    background-color: red;
+}
+
+.my-list li:last-child{
+    background-color: blue;
+}
+
+.my-list li:nth-child(7){
+    background-color: purple;
+}
+
+.my-list li:nth-child(even){
+    background-color: grey;
 }
