@@ -37,7 +37,7 @@ a:visited{
 }
 
 .container{
-    width: 500px;
+    width: 80%;
     margin: auto;
 }
 
@@ -51,6 +51,10 @@ a:visited{
 .button:hover{
     background: red;
     color: #fff
+}
+
+.clr{
+    clear:both;
 }
 
 .box-1{
@@ -136,4 +140,47 @@ a:visited{
     width: 33.3%;
     border: 1px solid #ccc;
     padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url("../images/bgimage.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+.p-box h1{
+    position:absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
 }
